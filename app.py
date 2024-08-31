@@ -35,7 +35,7 @@ st.title("타이타닉 생존 예측기")
 
 # 사용자 입력 받기
 pclass = st.selectbox("객실 등급 (1, 2, 3)", [1, 2, 3])
-sex = st.selectbox("성별", ["남성", "여성"])
+sex = st.selectbox("성별", ["male", "female"])
 age = st.number_input("나이", min_value=0.0, max_value=100.0, value=30.0)
 sibsp = st.number_input("형제/자매 수", min_value=0, max_value=10, value=0)
 parch = st.number_input("부모/자녀 수", min_value=0, max_value=10, value=0)
